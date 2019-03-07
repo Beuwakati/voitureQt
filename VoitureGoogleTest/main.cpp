@@ -1,6 +1,7 @@
 #include "tst_a.h"
 #include "test_testvoitureroule.h"
 #include "tst_testvoitureconstructor.h"
+#include "tst_testpilote.h"
 
 #include <gtest/gtest.h>
 
