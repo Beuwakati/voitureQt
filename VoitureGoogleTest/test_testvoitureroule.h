@@ -131,6 +131,8 @@ TEST_F(TestOldVoitureRouler, NoGaz)
 
     //when/then
     EXPECT_THROW( oldCar.rouler(distance), std::invalid_argument);
+    EXPECT_THAT(oldCar.kilometrage(), Eq(kmStart));
+    EXPECT_THAT(oldCar.jaugeCarburant(), Eq(jaugeStart));
 }
 
 //INSTANTIATE_TEST_SUITE_P(GroupVoitureRecente,TestVoitureRecenteRouler(nom du test), (valeur pour param) values(0, 10000, 149999))
