@@ -13,6 +13,7 @@ using namespace testing;
 TEST(TestPiloteConstructor, Default)
 {
 //to do
+    Pilote pilote;
     ASSERT_TRUE(false);
 }
 
